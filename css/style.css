@@ -120,14 +120,14 @@ a.downarrow{
 .banner-info{
 	position: relative;
 	top: 100px;
-	float: left;
+	float: center;
 }
 #imgSu{
 	position: relative;
 	top: 100px;
 	height: 250px;
 	width: 250px;
-	
+
 }
 /*------ About STARTS---------*/
 .about{
