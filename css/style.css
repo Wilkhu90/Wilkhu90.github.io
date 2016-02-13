@@ -122,6 +122,13 @@ a.downarrow{
 	top: 100px;
 	float: left;
 }
+#imgSu{
+	position: relative;
+	top: 100px;
+	height: 250px;
+	width: 250px;
+	
+}
 /*------ About STARTS---------*/
 .about{
 	color:white;
