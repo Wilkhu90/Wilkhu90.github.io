@@ -120,10 +120,7 @@ a.downarrow{
 .banner-info{
 	position: relative;
 	top: 100px;
-	float: center;
-}
-.banner-info .well{
-	height: 100%;
+	float: left;
 }
 
 /*------ About STARTS---------*/
