@@ -119,8 +119,8 @@ a.downarrow{
 }
 .banner-info{
 	position: relative;
-	top: 200px;
-	left: 11%;
+	top: 100px;
+	float: left;
 }
 /*------ About STARTS---------*/
 .about{
