@@ -24,7 +24,7 @@
             })
 
             .otherwise({
-                redirectTo: '#/'
+                redirectTo: '/'
             });
     });
 
