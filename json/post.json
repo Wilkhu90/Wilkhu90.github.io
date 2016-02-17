@@ -1,14 +1,14 @@
 [
 	{
-		"title": "My first Post",
+		"title": "Article Zero",
 		"desc": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum .",
 		"post": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
 
 
 	},
 	{
-		"title": "My Second Post",
-		"desc": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum .",
+		"title": "My First Post",
+		"desc": "AngularJS is magical for developing SPA...",
 		"post": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
 
 	}
