@@ -1,0 +1,5 @@
+<article ng-repeat="post in postData">
+	<h1><a href="#/blog/{{postData.indexOf(post)}}">{{post.title}}</a></h1>
+	<p>{{post.desc}}</p>
+	<a href="#/blog/{{postData.indexOf(post)}}">Read more &rarr;</a>
+</article>

@@ -23,6 +23,15 @@
                 controller  : 'contactController'
             })
 
+            .when('/blog',{
+                templateUrl : 'pages/post.html',
+                controller  : 'PostController'
+            })
+            .when('/blog/:id',{
+                templateUrl : 'pages/article.html',
+                controller  : 'ArticleController'
+            })
+
             .otherwise({
                 redirectTo: '/'
             });
@@ -41,3 +50,16 @@
     resumeApp.controller('contactController', function($scope) {
         $scope.message = 'Contact us! JK. This is just a demo.';
     });
+
+    resumeApp.controller('PostController', ['$scope', '$http', function($scope, $http) {
+        $http.get('json/post.json').success(function(data){
+            $scope.postData = data;
+    });
+    
+    }]);
+
+    resumeApp.controller('ArticleController', ['$scope', '$http','$routeParams', function($scope, $http, $routeParams) {
+        $http.get('json/post.json').success(function(data){
+            $scope.post = data[$routeParams.id];
+        });
+    }]);
