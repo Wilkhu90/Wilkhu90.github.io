@@ -52,14 +52,14 @@
     });
 
     resumeApp.controller('PostController', ['$scope', '$http', function($scope, $http) {
-        $http.get('json/post.json').success(function(data){
+        $http.get('json/post.json', {cache: true}).success(function(data){
             $scope.postData = data;
     });
     
     }]);
 
     resumeApp.controller('ArticleController', ['$scope', '$http','$routeParams', function($scope, $http, $routeParams) {
-        $http.get('json/post.json').success(function(data){
+        $http.get('json/post.json', {cache: true}).success(function(data){
             $scope.post = data[$routeParams.id];
         });
     }]);
